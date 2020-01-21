@@ -7,7 +7,9 @@ RUN apt update \
   && apt install -y --no-install-recommends \
   apt-transport-https \
   ca-certificates \
-  curl
+  curl \
+  gnupg \
+  wget
 
  CMD ["/bin/bash"]
 
