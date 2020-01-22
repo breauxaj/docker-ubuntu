@@ -9,6 +9,7 @@ RUN apt update \
   ca-certificates \
   curl \
   gnupg \
+  lsb-release \
   wget
 
  CMD ["/bin/bash"]
